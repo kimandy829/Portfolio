@@ -1,0 +1,387 @@
+/*
+Name: Andy Kim
+Email: akim83@myseneca.ca
+Student #: 105945308
+Date: 2020-12-11
+*/
+
+header {
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    border: 0;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+#logo a {
+    margin: 0 20px; 
+}
+
+input {
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#pinfo {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pinfo li {
+    padding: 0 10px;
+}
+
+#additional, #sns {
+    display: flex;
+    justify-content: center;
+}
+
+#rights {
+    text-align: center;
+    color: #706f6f;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#storedesc {
+    float: left;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    line-height: 205px;
+    letter-spacing: 1px;
+    color: #c5c4c4;
+}
+
+#mainimage1 {
+    width: 70%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    float: left;
+    background-image: url(./images/boxingdaysale.jpg);
+    margin-left: 300px;
+}
+
+#mainimage2 {
+    width: 70%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    float: left;
+    background-image: url(./images/holidaygift.jpg);
+    margin-left: 300px;
+    margin-top: -20px;
+}
+
+#categories {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 125px;
+    color: black;
+}
+
+#categories li {
+    padding: 0 50px;
+}
+
+#categories li a, #pinfo li a {
+    color: black;
+}
+
+#container {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.site-footer {
+    width: 100%;
+    float: left;
+    position: static;
+    bottom: 0;
+    height: 2.5rem; 
+    margin-top: 100px;
+}
+
+#additional {
+    margin: 0 auto;
+    padding: 2.8125rem 3.75rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #706f6f;
+}
+
+.infosection a {
+    color: #706f6f;
+}
+  
+#sns {
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sns ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialnetwork {
+    width: 100%;
+    height: 100px;
+    margin: 50px 0 20px;
+    margin-bottom: -50px;
+}
+
+#follow {
+    text-align: center;
+    padding-left: 38px;
+    color: #706f6f;
+}
+
+h1 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: -0.2em;
+    font-weight: bold;
+    position: relative;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#sns img {
+    padding: 0 50px 0 50px;
+}
+
+.infosection h4 {
+    padding: 0 0 0 40px;
+}
+
+#listofproducts {
+    display: flex;
+    color: #a5a4a4;
+}
+
+.maincontent {
+    width: 90%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    margin-top: 100px;
+}
+
+#listofproducts img {
+    width: 200px;
+    height: 200px;
+}
+
+#subtitle {
+    margin-left: 830px;
+    color: #a5a4a4;
+}
+
+body {
+    background-color: black;
+}
+
+#homepage-products {
+    width: 70%;
+    height: 350px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 655px 600px;
+    background-position: left, right;
+    margin-bottom: 30px;
+    float: left;
+    margin-left: 300px;
+    margin-top: -20px;
+    background-image: url(./images/ASUS_TUF.jpg), url(./images/LG_77C8.jpg);
+}
+
+#subscription {
+    margin-top: 20px;
+}
+
+#subscription input {
+    width: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(150, 148, 148);
+}
+
+#button {
+    color: white;
+    background-color: rgb(170, 29, 29);
+}
+
+#contact {
+    float: right;
+    margin-right: 20px;
+    font-size: 120%;
+    border: none;
+    color: white;
+}
+
+#form label {
+    color: white;
+}
+
+.wrap {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 415px;
+    align-items: center;
+    justify-content: center;
+    min-height: 1000px;
+}
+
+.innerwrap {
+    background-color: rgb(170, 170, 170);
+    border-radius: 20px;
+    width: 1000px;
+    max-width: 100%;
+    margin: 30px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#main-contact {
+    background-color: #706f6f;
+    border-bottom: 1px solid #706f6f;
+    padding: 20px 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0%;
+}
+
+.row1, .row3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.row1-input, .row2-input, .row3-input {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.row1-input label , .row2-input label, .row3-input label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.row1-input input, .row2-input input, .row3-input input {
+    border: 2px solid grey;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 400px;
+}
+
+.row2-input input {
+    width: 800px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.radio-options {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 15px;
+}
+
+#contact-reason {
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#reason-select {
+    display: flexbox;
+    width: 200px;
+}
+
+#reason-select input {
+    position: absolute;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
+.hidden-field input {
+    border: 2px solid grey;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    color: #000000;
+}
+
+.hidden-field {
+    margin-bottom: 20px;
+}
+
+#path {
+    display: flexbox;
+    font-size: 20px;
+    text-align: center;
+}
+
+.innerwrap a {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#submit-verify {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 900px;
+    font-size: 15px;
+    text-align: center;
+}
+

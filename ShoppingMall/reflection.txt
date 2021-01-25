@@ -1,0 +1,29 @@
+Name: Andy Kim
+Email: akim83@myseneca.ca
+Student #: 105945308
+Date: 2020-12-11
+
+Reflection
+
+Some main features of HTML Forms and input elements I used to validate user's input were the attributes of input element.
+In part 1.1 of the final assessment where I was given a task to modify the index.html to create a HTML Form to allow user
+to enter their email address so that they can subscribe to the website. To validate user's input to make sure it is a valid
+email address, I created an input element with attribute of type="email" so that input element will only accept input that
+matches the type email (i.e. including @ symbol, etc). For part 1.2 of the assessment, I was given a task to create a 
+separate html document to create Contact Us page to accept multiple user input that can be submitted to https://httpbin.org/post
+using the post method. To validate all 7 entries of user input, when I created an input element for every one of them, I 
+included the required attribute inside input tag to make sure user enters the input. Moreover, I specified the type of input
+user will be typing such as text, email or radio. One technique I found very useful when validating radio options was that
+if I specify the same name for all the radio options, by simply applying required attribute to one of the option, it will 
+apply to all of the options and that is how I validated radio options from user. For testing my forms, I purposely entered
+invalid values for each entities to see if I can break the code in any possible way. One testcase I performed while debugging
+my work was omitting @ symbol in my email inputs to see if I get an error message that would notify me to input correct values.
+Without a surprise, with the power of required attribute and type attribute in input element, my code did not break. One bug
+I found while debugging my work was the pattern attribute I used in input element for validating user input for postal codes
+in Contact Us page. My test cases for postal codes kept failing due to my wrong regular expression that I defined in pattern
+attribute inside input element. This was later solved by fixing my regular expression. One advice I would give to other web
+developers building forms is proper use of attributes of input elements and understanding when to apply them. Attibutes 
+inside input elements are very powerful and the most simple way of validating user's input. From completing the final 
+assessment of WEB222, I encountered many different problems. One lesson I learned from this assessment is that I should always
+plan ahead before actually writing the code down to better organize the structure and code management.
+

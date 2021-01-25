@@ -1,0 +1,175 @@
+<!--
+Name: Andy Kim
+Email: akim83@myseneca.ca
+Student #: 105945308
+Date: 2020-12-11
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB222 Contact Us</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bebas+Neue&display=swap" rel="stylesheet"></link>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+            <a href="index.html"><h1><b>Generics</b></h1></a>
+            </div>
+            <div>
+            <ul id="categories">
+                <li id="menu_laptops"><a href="#">Laptops</a></li>
+                <li id="menu_tablets"><a href="#">Tablets</a></li>    
+                <li id="menu_televisions"><a href="#">TVs</a></li>
+                <li id="menu_headphones"><a href="#">Headphones</a></li>
+            </ul>
+            </div>
+            <div>
+            <ul id="pinfo">
+                <li id="signin"><a href="#">Sign In</a></li>
+                <li id="cart"><a href="#">My Cart</a></li>
+                <li id="ask"><a href="#">Ask Us</a></li>
+                <li id="track"><a href="#">Track Your Package</a></li>
+            </ul>
+            </div>
+        </header>
+        
+        <div class="wrap">
+            <div class="innerwrap">
+                <h3 id="main-contact">Contact Us</h3>
+                <a href="index.html">Click here to Return Home</a>
+                <form id="form" action="https://httpbin.org/post" method="POST">
+                    <div class="row1">
+                        <div class="row1-input">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="row1-input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="row2-input">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                    </div>
+                    <div class="row3">
+                        <div class="row3-input">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" required>
+                            <datalist id="cities">
+                                <option>Ottawa</option>
+                                <option>St.John's</option>
+                                <option>Halifax</option>
+                                <option>Fredericton</option>
+                                <option>Charlottetown</option>
+                                <option>Quebec</option>
+                                <option>Toronto</option>
+                                <option>Winnipeg</option>
+                                <option>Regina</option>
+                                <option>Edmonton</option>
+                                <option>Victoria</option>
+                                <option>Iqaluit</option>
+                                <option>Yellowknife</option>
+                                <option>Whitehorse</option>
+                            </datalist>
+                        </div>
+                        <div class="row3-input">
+                            <label for="postal">Postal Code</label>
+                            <input type="text" id="postal" name="postal" pattern="^[A-Za-z]\d[A-Za-z]\s?\d[A-Za-z]\d$" required>
+                        </div>
+                    </div>
+                    <div class="radio-options">
+                        <div id="contact-reason">
+                            <label id="reason">Reason</label>
+                        </div>
+                        <div id="reason-select">
+                            <div>
+                                <input type="radio" class="reason-option" name="reason" required>
+                                <label for="reason">Question</label>
+                            </div>
+                            <div>
+                                <input type="radio" class="reason-option" name="reason">
+                                <label for="reason">Comment</label>
+                            </div>
+                            <div>
+                                <input type="radio" class="reason-option" name="reason">
+                                <label for="reason">Order Problem</label>
+                            </div>
+                        </div>
+                        <label for="message">Type Message</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </div>
+                    <div class="hidden-field">
+                        <input type="hidden" name="myname" id="myname" value="Andy Kim">
+                    </div>
+                    <div class="path">
+                        <div id="submit-verify">
+                            <button id="button" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class=site-footer>
+            <h4 id="follow">Follow Us #GENERICS</h4>
+            <div class="socialnetwork">
+            <div id="sns">
+                <ul>
+                <li><a href="#"><img src="./images/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="./images/twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="./images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="./images/reddit.png" alt="reddit"></a></li>
+                </ul>
+            </div>
+            </div>
+            <div id="additional">
+            <div class="infosection">
+                <h4>Get to Know Us</h4>
+                <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Generics and our mission</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                </ul>
+            </div>
+            <div class="infosection">
+                <h4>Customer Service</h4>
+                <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Repair Centre</a></li>
+                <li><a href="#">Online Shopping FAQ</a></li>
+                </ul>
+            </div>
+            <div class="infosection">
+                <h4>Policies</h4>
+                <ul>
+                <li><a href="#">Exchanges & Returns</a></li>
+                <li><a href="#">Product Warranty</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div id="subscription">
+                <form action="https://formspree.io/f/xjvpaogq" method="post">
+                <label for="email">Your Email</label>
+                <input name="Email" id="email" type="email">
+                <button type="submit" id="submit">Subscribe</button>
+                </form>
+            </div>
+            </div>
+            <div id="rights">
+            <h5>&copy; Copyright 2020 Generics. All Rights Reserved.</h5>
+            </div>
+        </footer>
+    </div>
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
